@@ -1,0 +1,230 @@
+/*初始化*/
+*{margin: 0;padding: 0;}
+ol,ul{list-style: none;}
+a{text-decoration: none;}
+img{
+	vertical-align:top;
+}
+
+
+.nav_a{
+    width: 950px;
+    height: 32px;
+    margin: 0 auto;
+    border-bottom: 1px dashed;
+}
+.nav_a p{
+    font-size: 12px;
+    margin-top: 10px;
+}
+.nav_a p a{
+    color: black;
+}
+.nav_a p a:nth-last-child(1){
+    color: crimson;
+}
+.contener_c{
+    width: 950px;
+    margin: 0 auto;
+}
+.con_left{
+    width: 238px;
+    height: 547px;
+    margin-top: 15px;
+    float: left;
+}.con_left .p_1{
+    font-size: 26px;
+    font-weight: normal;
+}
+.con_left span{
+    font-size: 12px;
+    padding-left: 25px;
+}
+.con_left img{
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+.con_left .p_2{
+    font-size: 12px;
+}
+.con_left .p_2 a{
+    color: black;
+    margin-left: 105px;
+    font-weight: 600;
+}
+.con_left .p_3 a{
+    font-size: 12px;
+    color: black;
+    margin-left: 160px;
+    font-weight: 600;
+}
+
+.con_right{
+    width: 710px;
+    height: 2330px;
+    float: left;
+}
+.sort_by_list{
+    border:1px solid;
+    outline: none;
+    width: 150px;
+    padding: 1px 20px 2px 4px;
+    height: 26px;
+    line-height: 19px;
+    margin-top: 15px;
+}
+select {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    height: 30px;
+    padding: 0 20px 2px 4px;
+    box-shadow: none;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    overflow: hidden;
+    color: #000;
+    font: normal 14px/26px "SimSun",Arial,sans-serif;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    background: #fff url(/img/02.png) right center no-repeat;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+}
+.shop{
+    width: 710px;
+    margin-top: 15px;
+}
+.shop_box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+}
+.shop_box_con{
+    margin-top: 9px;
+    width: 29%;
+    height: 396px;
+    position: relative;
+    padding: 0 10px 15px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+.product_image_topwrapper{
+    position: relative;
+    padding: 0 0 2px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.product_image{
+    display: block;
+    height: 194px;
+    line-height: 194px;
+    border-bottom:1px solid #ccc;
+}
+.product_image_wrapper{
+    display: block;
+    margin: 8px 0;
+    font: bold 14px/19px "SimSun",Arial,serif;
+    overflow: hidden;
+    color: #000;
+    text-decoration: none;
+}
+.product_li{
+    font-size:12px;
+    list-style: inside;
+}
+.price{
+    width: 100%;
+    float: right;
+    margin: 7px 0 5px;
+    border-bottom: 1px dotted #767676;
+    color: #000;
+    font: 14px/14px "SimSun",Arial,sans-serif;
+    font-weight: 700;
+    text-align: right;
+    padding-bottom: 3px;
+}
+ .product_size{
+    height: 20px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 120px;
+    overflow: hidden;
+    float: left;
+    color: #999;
+    font: 14px/14px "SimSun",Arial,sans-serif;
+} 
+.product_price{
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 0 5px;
+    float: left;
+} 
+.imglove{
+    width: 68px;
+    height: 15px;
+    float: left;
+}
+.aa{
+    width: 226px;
+    height: 33px;
+    margin-top: 70px;
+}
+.product_details{
+    display: inline-block;
+    width: 97px;
+    height: 33px;
+    overflow: hidden;
+    float: left;
+    border: 1px solid;
+}
+
+.product_loadmore{
+    display: block;
+    font-family: simsun,Arial,serif;
+    color: #000;
+    font-weight: 400;
+    height: 33px;
+    margin: 12px 6px;
+    line-height: 12px;
+    padding: 0 18px;
+    font-size: 12px;
+    
+}
+.aa button{
+    width: 97px;
+    overflow: hidden;
+    float: left;
+    border: 1px solid black;
+    font-family: simsun,Arial,serif;
+    color: #fff;
+    font-weight: 400;
+    height: 35px;
+    margin: 0px 6px;
+    line-height: 12px;
+    padding: 0 18px;
+    font-size: 12px;
+    background: #000;
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+.category_footer_copy{
+    margin-top: 20px;
+}
+
+
+
+

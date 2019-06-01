@@ -1,0 +1,192 @@
+/*初始化*/
+*{margin: 0;padding: 0;}
+ol,ul{list-style: none;}
+a{text-decoration: none;}
+img{
+	vertical-align:top;
+}
+.nav_l{
+    width: 950px;
+    height: 32px;
+    margin: 0 auto;
+    border-bottom: 1px dashed;
+}
+.p_dd{
+    font-size: 12px;
+    margin-top: 10px;
+}
+.p_dd a{
+    color: black;
+}
+.p_dd a:nth-child(3){
+    color: red;
+}
+.primary{
+    width: 950px;
+    margin: 0 auto;
+    
+}
+.cart_wrapper{
+    width: 665px;
+    float: left;
+
+}
+.cart_title{
+    padding: 20px 0 5px;
+    font: normal 24px/28px "SimSun",Arial,serif;
+}
+.cart_empty{
+    padding-bottom:50px;
+    font: normal 12px/17px "SimSun",Arial,sans-serif;
+}
+.cart_empty a{
+    outline: 0;
+    color: #333;
+    text-decoration: underline;
+}
+.jcarousel-clip{
+    width: 900px;
+    height: 285px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.productcarousel_list{
+    white-space: nowrap;
+    margin: 0;
+    width: 100%;
+}
+.product_tile_wrapper{
+    width: 120px;
+    height: 285px;
+    margin: 0 20px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+.img_a{
+    width: 120px;
+    height: 137px;
+}
+.product_tile_wrapper .product_name{
+   font-size: 14px;
+   margin: 20px 0;
+   color: black;
+   line-height: 20px;
+   height: 45px;
+    margin-bottom: 0;
+    margin-top: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+.img_b{
+    width: 68px;
+    height: 15px;
+    margin-left: 26px;
+}
+.price{
+    width: 120px;
+    height: 15px;
+    text-align: center;
+}
+.js_quickview{
+    padding: 0 20px;
+    height: 33px;
+    line-height: 33px;
+    font-family: simsun,Arial,serif;
+    text-transform: uppercase;
+    color: #fff;
+    background: #000;
+    font-size: 12px;
+    display: inline-block;
+    text-align: center;
+    border:none;
+    outline:none;
+    margin-top:10px;
+}
+
+
+
+.secondary{
+    width: 247px;
+    float: right;
+    margin-top: 69px;
+    margin-bottom: 70px;
+}
+.productcarousel{
+    width: 245px;
+    height: 513px;
+    border: 1px solid #e6e6e6;
+    background-color: #fafbf8;
+    position: relative;
+}
+.recommendation_title{
+    text-align: center;
+    margin: 0 20px;
+    padding: 25px 0 20px;
+    border-bottom: solid 1px;
+    font: normal normal 12px/15px "SimSun",Arial,serif;
+}
+.productcarousel{
+    width: 243px;
+}
+.product_tile_wrapper_w{
+    padding: 10px 20px;
+    min-height: 151px;
+    position: relative;
+    width: 243px;
+    box-sizing: border-box;
+    border-bottom: solid 1px #e6e6e6;
+}
+.product_tile{
+    width: 188px;
+    height: 110px;
+    display: flex;
+
+} 
+.img_c{
+    display: block;
+    width: 65px;
+    height: 74px;
+}
+.span_a{
+    margin-left: 22px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.product_subtitle{
+    font: normal normal 12px/15px "SimSun",Arial,serif;
+}
+.img_d{
+    width: 68px;
+    height: 15px;
+    margin: 9px 0;
+
+}
+.btn_a{
+    background-color: #000;
+    width: 100px;
+    height: 36px;
+    padding: 0 20px;
+    height: 33px;
+    line-height: 33px;
+    font-family: simsun,Arial,serif;
+    text-transform: uppercase;
+    color: #fff;
+    background: #000;
+    font-size: 12px;
+    display: inline-block;
+    text-align: center;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    min-width: 100px;
+    border: 0;
+}
+
+
+

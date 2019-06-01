@@ -1,0 +1,240 @@
+/*初始化*/
+*{margin: 0;padding: 0;}
+ol,ul{list-style: none;}
+a{text-decoration: none;}
+img{
+	vertical-align:top;
+}
+
+
+
+.nav_na{
+    width: 950px;
+    height: 32px;
+    margin: 0 auto;
+    border-bottom: 1px dashed;
+}
+.nav_na p{
+    font-size: 12px;
+    margin-top: 10px;
+}
+.nav_na p a{
+    color: black;
+}
+
+
+
+.register_page{
+    width: 950px;
+    height: 950px;
+    margin: 0 auto;
+    background: url(../img/account_bg_wrapper.jpg) 0 repeat;
+    background-size: auto 100%;
+    overflow: hidden;
+}
+
+.register_page_inner {
+    width: 830px;
+    height: 830px;
+    background-color: #fff;
+    border: 1px solid #000;
+    margin: 0 auto;
+    margin-top: 59px;
+}
+.linkto_loginin {
+    font-size: 12px;
+    text-align: right;
+    position: relative;
+    right: 40px;
+    margin: 22px 0 0;
+
+}
+.linkto_loginin a{
+    color: black;
+}
+.register_page_inner h1 {
+    padding: 0;
+    margin: 0;
+    margin: 40px 0 24px;
+    font: bold 26px/28px "SimSun",Arial,serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+.register_page_inner .user-registration-description {
+    margin: 0 0 30px;
+    padding: 0 20px;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    font-family: Arial,Helvetica,sans-serif;
+}
+.register_page_inner .joinnow_signin_message {
+    font-size: 12px;
+    color: red;
+    font-weight: 700;
+}
+
+.registration-content{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: 0 0;
+}
+form{
+    border: none;
+    border-bottom: 1px dashed silver;
+    width: 568px;
+    height: 455px;
+    margin: 0 auto;
+}
+.div-mustinput-tip {
+    font-size: 12px;
+    color: red;
+    padding: 10px 0;
+    font-family: simsun,Arial,sans-serif;
+}
+.register_page_gender{
+    width: 568px;
+    height: 65px;
+}
+.f_label_value{
+    font-size:12px;
+}
+.f_label_value span{
+    color: red;
+    padding-right: 5px;
+}
+.select f_select{
+    margin: 10px;
+    padding-left: 10px;
+    font-size: 12px;
+}
+select{
+    display: inline-block;
+    vertical-align: middle;
+    width: 255px;
+    height: 30px;
+    padding: 0 20px 2px 4px;
+    box-shadow: none;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    overflow: hidden;
+    color: #000;
+    font: normal 14px/26px "SimSun",Arial,sans-serif;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    background: #fff url(/img/02.png) right center no-repeat;
+    margin: 10px;
+    outline: none;
+    -webkit-appearance: none;
+}
+.f_field{
+    width: 255px;
+    float: left;
+} 
+.textinput{
+    outline: #000;
+    margin: 10px;
+    padding-left: 10px;
+    width: 100%;
+    height: 30px;
+    padding: 0 5px;
+    border: 1px solid #ccc;
+    font-family: simsun,Arial,sans-serif;
+    font-size: 12px;
+    line-height: 30px;
+    color: #4f4f4f;
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+.f_field—_f{
+    width: 255px;
+    float: right;
+}
+.textinput_t{
+    outline: #000;
+    margin: 10px;
+    padding-left: 10px;
+    width: 100%;
+    height: 30px;
+    padding: 0 5px;
+    border: 1px solid #ccc;
+    font-family: simsun,Arial,sans-serif;
+    font-size: 12px;
+    line-height: 30px;
+    color: #4f4f4f;
+    -webkit-appearance: none;
+    border-radius: 0;
+    margin-left: -2px;
+}
+.sms_register_section{
+    float: right;
+    width: 265px;
+    height: 80px;
+    display: block;
+    margin-top: 100px;
+}
+.f_field_i{
+    width: 110px;
+    float: left;
+}
+.button{
+    float: right;
+    height: 32px;
+    width: 125px;
+    cursor: pointer;
+    color: #fff;
+    font: 700 13px Arial,sans-serif;
+    border: 0;
+    background: #b4b4b5;
+    margin-top: 26px;
+}
+.registration_submit_section{
+    width: 568px;
+    height: 119px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.bb{
+    width: 568px;
+    height: 32px;
+    margin-top: 35px;
+    margin-bottom: 15px;;
+} 
+.checkbox{
+   display:block;
+   width: 14px;
+   height: 14px;
+   background-color: #fff;
+   border: 1px solid;
+   float: left;
+}
+.f_label_value{
+    display:block;
+    min-width: 14px;
+    min-height: 14px;
+    padding: 0 0 0 5px;
+    cursor: pointer;
+    color: #4f4f4f;
+    font-size: 11px;
+    float: left;
+    width: 549px;
+}
+.button_b{
+    background: #ccc;
+    border-color: #ccc;
+    height: 32px;
+    width: 194px;
+    cursor: pointer;
+    color: #fff;
+    font: 700 13px Arial,sans-serif;
+    border: 0;
+    margin-left:187px ;
+}
+.button_b:hover{
+    background: red;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户注册</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />    
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/zhuce.css">
+    <script src="/libs/requirejs/require.js" data-main="/js/zhuce"></script>
+</head>
+<body>
+    <header></header>
+      <div class="nav_na">
+            <p><a href="">首页 </a> / <a href=""> 我的科颜氏 </a></p>
+      </div>
+      <div class="alert alert-danger register-error hidden"></div>
+      <div class="register_page">
+            <div class="register_page_inner">
+                    <div class="linkto_loginin">
+                            我是已注册用户，前往<a href="#" class="checkout_back_to_login_button">登录&gt</a>
+                    </div>
+                    <h1>新用户注册</h1>
+                    <div class=" content_asset user-registration-description ">
+                            <div class="joinnow_description">注册即可享一手新品资讯与活动、查看历史订单等。</div>
+                            <div class="joinnow_signin_message">建议您使用常用手机号进行注册。</div>
+                    </div>
+                    <div class="registration-content">
+                        <form class="form-register">
+                                <div class="div-mustinput-tip">
+                                        <span>*为必填项</span>
+                                </div>
+                                <div class="register_page_gender">
+                                            <p class="f_label_value">
+                                               <span>*</span>性别
+                                            </p>
+                                            <select class="select f_select">
+                                                    <option value="" selected="selected">选择</option>
+                                                    <option value="2">女</option>
+                                                    <option value="1">男</option>
+                                            </select>
+                                            <div class="register_page_username">
+                                                <div class="f_field">
+                                                 <p class="f_label_value">
+                                                    <span>*</span>您的邮箱/手机
+                                                 </p>
+                                                 <input type="text" class="textinput" placeholder="您的邮箱/手机" maxlength="50" value="" name="firstname">
+                                                </div>
+                                                <div class="f_field—_f">
+                                                        <p class="f_label_value">
+                                                           姓名
+                                                        </p>
+                                                        <input type="text" class="textinput_t" placeholder="姓名" maxlength="50" value="" name="lastname">
+                                                       </div>
+                                            </div>
+                                            <div class="register_page_username">
+                                                    <div class="f_field">
+                                                     <p class="f_label_value">
+                                                        <span>*</span>密码
+                                                     </p>
+                                                     <input type="password" class="textinput" placeholder="密码" maxlength="50" value="" name="password">
+                                                    </div>
+                                                    <div class="f_field—_f">
+                                                            <p class="f_label_value">
+                                                                    <span>*</span>确认密码
+                                                            </p>
+                                                            <input type="password" class="textinput_t" placeholder="确认密码" maxlength="50" value="" name="password">
+                                                           </div>
+                                                </div>
+                                                <div class="register_page_username">
+                                                        <div class="f_field">
+                                                         <p class="f_label_value">
+                                                            <span>*</span>您的手机
+                                                         </p>
+                                                         <input type="text" class="textinput" placeholder="您的手机" maxlength="50" value="" name="email">
+                                                        </div>
+                                                    </div>
+                                                    <div class="sms_register_section">
+                                                            <div class="f_field_i">
+                                                                    <p class="f_label_value">
+                                                                       <span>*</span>短信验证码
+                                                                    </p>
+                                                                    <input type="text" class="textinput" placeholder="短信验证码" maxlength="50" value="">
+                                                                   </div>
+                                                                   <button class="button" type="button" disabled="disabled" value="获取短信验证码">
+                                                                        <span>获取短信验证码</span>
+                                                                   </button>
+                                                    </div>
+                                </div>
+                        </form>
+                        <div class="registration_submit_section">
+                            <div class="bb">
+                                    <input type="checkbox" class="checkbox" value="true">
+                                    <span class="f_label_value ">
+                                            我同意依照本<a class="termofuse" href="">使用条款</a>和<a class="privacy" href="">隐私政策</a>对我的个人信息进行收集和使用；我已阅读并确认被给予充分机会理解该<a class="termofuse" href="">使用条款</a>和<a class="privacy" href="">隐私政策</a>的内容。
+                                            </span>
+                            </div>
+                            <div class="formfield">
+                                    <button type="submit" class="button_b" value="立即注册" name="dwfrm_profile_confirm" disabled="">
+                                    <span class="">立即注册</span>
+                                    </button>
+                                    </div>
+                        </div>
+                    </div>
+            </div>
+            
+      </div>
+
+    <footer></footer>
+</body>
+</html>

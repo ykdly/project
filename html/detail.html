@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/detail.css">
+    <script src="/libs/requirejs/require.js" data-main="/js/detail"></script>
+</head>
+<body>
+    <header></header>
+    <div class="nav_f">
+            <p><a href="/index.html">首页 </a> / <a href=""> 面部护理 </a> / <a href=""> 科颜氏金盏花爽肤水</a></p>
+         </div>
+
+         <div class="pdp_main">
+            
+                 <div class="test_footer_copy" style="border:1px solid #ccc;margin-bottom:15px;font-size:12px;line-height:25px;padding:10px;">
+                    <strong style="font-size:14px;text-align:center;display:block">科颜氏爽肤水系列明星产品科颜氏金盏花爽肤水</strong>
+                    科颜氏金盏花爽肤水，能温和清洁和舒缓中偏油性肌肤、均衡调理肌肤的油脂。<br>了解更多关于科颜氏金盏花爽肤水价格、功效、使用方法等信息，购买科颜氏金盏花爽肤水产品，就到Kiehl's 科颜氏中国官网。
+                </div>
+             </div>
+         </div>
+    <footer></footer>
+
+
+
+   <script type="text/html" id="detail-template">
+    <div class="wrap_a prod-detail" data-id="{{prod.id}}">
+            <div class="mousetrap" style="z-index: 899; position: absolute; width: 338px; height: 384px; left: 0px; top: 0px; cursor: pointer;">
+                <img class="img_m prod-img"src="{{prod.photos[0].url}}" data-zoom-img="{{prod.photos[0].url}}" alt="">
+                <!-- <div id="gallery">
+                        {{each prod.photos photo}}
+                        <a href="#" data-image="{{photo.url}}" data-zoom-image="{{photo.url}}">
+                            <img src="{{photo.url}}" alt="">
+                        </a>
+                        {{/each}}
+                    </div> -->
+            </div>
+             <div class="product_details-right">
+                <div class="hidden-mobile"></div>
+                    <h1 class="product_name">
+                        <span class="product_name prod-title">{{prod.title}}</span>
+                        </h1>
+                        <img src="../img/552.png" alt="">
+                        <div class="product_detail_description " itemprop="description">
+                            <span style="color:red">&lt;清爽夏日护肤必备&gt;5.29-6.5 购物满300免邮#正品单随单享3款明星试用#单品购物满580元，加享限量【K星晴雨伞】，优惠码：SUN<br>
+                            购买金盏花爽肤水，随单加享：金盏花水活霜7ml</span><br><br>
+                            科颜氏金盏花植物爽肤水因其清新温和的功效而成为20世纪60年代的永恒经典。在这款不含酒精的科颜氏金盏花植物活肤水中，添加了天然金盏花成分，能温和清洁和舒缓中偏油性肌肤、均衡调理肌肤的油脂，适合各种肤质使用，尤其是油性肌肤与有青春痘困扰的混合性肌肤。时至今日，科颜氏金盏花植物爽肤水仍收到无数顾客的钟情。<br><br>
+                            100%正品保证
+                            </div>
+                            <div class="product_detail">
+                                <div class="product_content"></div>
+                                <fieldset>
+                                    <div class="quantity ">
+                                    <label data-for="quantity">数量</label>
+                                    <select name="quantity" class=" null">
+                                    <option value="1" selected="">
+                                    1
+                                    </option>
+                                    <option value="2">
+                                    2
+                                    </option>
+                                    <option value="3">
+                                    3
+                                    </option>
+                                    <option value="4">
+                                    4
+                                    </option>
+                                    <option value="5">
+                                    5
+                                    </option>
+                                    </select>
+                                    <div class="quantity_error">
+                                    </div>
+                                    </div>
+                                    <div class="product_price_wrapper">
+                                    <div class="price b-price">
+                                    <p class="product_price price_sale b-product_price-sale" title="Sale Price" data-pricevalue="340.0">
+                                    <span class="product_price_title b-product_price-title ">价格</span>
+                                    ¥<span class="prod-price">{{prod.price}}</span>
+                                    </p>
+                                    </div>
+                                    </div>
+                                    <div class="b-product-add_to_cart">
+                                    <input type="hidden" name="cartAction" value="add">
+                                    <input type="hidden" name="pid" value="S0926300U">
+                                    <input type="hidden" name="quantity" value="1">
+                                   
+                                    <button type="submit" id="KLS00014" class="button js_addtocart add_to_cart addtocartbutton form-cart" title="添加至购物袋" value="添加至购物袋" data-category-name="face-toners" data-product-name="科颜氏金盏花爽肤水" data-masterproduct="KLS00014">
+                                    <span>添加至购物袋</span>
+                                    </button>
+                                   
+                                    <meta itemprop="availability" content="http://schema.org/InStock">
+                                    </div>
+                                    
+                                    </fieldset>
+
+                            </div>
+                        </div>
+             </div>
+             <div class="detail_deta">
+                 <div class="deta_p">
+                     <p>详情</p>
+                 </div>
+                 {{each prod.descContentList content}}
+			{{if content.photo}}
+				<div class="wedp"><img src="{{content.photo.url}}" alt=""></div>
+			{{/if}}
+		{{/each}}
+             </div>
+</script>
+</body>
+</html>

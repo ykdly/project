@@ -1,0 +1,136 @@
+.footer_v{
+    width: 950px;
+    height: 298px;
+    margin: 0 auto;
+    border-top:3px solid;
+    overflow: hidden;
+}
+.footer_nav{
+    float: left;
+    width: 732px;
+    height: 266px;
+}
+.footer_nav div{
+    margin-top: 28px;
+    background: url(../img/logo.png) no-repeat;
+    width: 730px;
+    height: 208px;
+    border-right: 2px solid;
+    display: flex;
+    justify-content: space-around;
+}
+.footer_nav div dl{
+    font-size: 12px;
+    width: 182px;
+}
+.footer_nav div dl:nth-child(1){
+    margin-left: 135px;
+}
+.footer_nav div dl dt{
+    font-weight: 800;
+    margin-bottom: 13px;
+}
+.dt_a{
+    margin-top: 25px;
+}
+
+.b-footer_social_networking{
+    float: right;
+    width: 217.5px;
+    margin: 28px 0 30px 0;
+    float: left;
+
+}
+.b-footer_social{
+    padding: 0 0 0 20px;
+}
+
+
+
+.b-footer_social_item .h3_h{
+    margin: 0 0 14px;
+    font-family: simsun,Arial,serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+}
+.b-footer_social_item a{
+    color: black;
+    display: block;
+    font-family: simsun,Arial,serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0;
+}
+.f_label{
+    display: block;
+    font-family: simsun,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: uppercase;
+    margin: 15px 0 5px;
+    padding: 0 0 0 20px;
+    
+}
+.footer-copyright{
+    width: 950px;
+    height: 32px;
+    margin: 0 auto;
+    background-color:black;
+}
+.b-footer_copyrights_item{
+    position: relative;
+    color: #fff;
+    display: inline-block;
+    margin-left: 65px;
+}
+
+
+.b-footer_copyrights_item a{
+    display: block;
+    font-family: simsun,Arial,serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    text-decoration: none;
+    color: #fff;
+    float: left;
+    padding-top: 8px;
+}
+.footer_a{
+    width: 950px;
+    height: 41px;
+    margin: 17px auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.footer_a span{
+    font-size: 12px;
+    line-height: 41px;
+}
+.footer_b{
+    width: 950px;
+    height: 12px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.footer_b li{
+    float: left;
+}
+.footer_b li:nth-child(1){
+    margin-left: 360px;
+}
+
+
+.footer_b a{
+    color: black;
+    font-size: 12px;
+    margin:0 10px;
+}
+

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/shouye.css">
+    <script src="/libs/requirejs/require.js" data-main="/js/list"></script>
+</head>
+<body>
+    <header></header>
+
+    <div class="nav_a">
+       <p><a href="">首页 </a> / <a href=""> 最新活动 </a> / <a href=""> 上市新品</a></p>
+    </div>
+    <div class="contener_c">
+       <div class="con_left">
+           <p class="p_1">上市新品</p>
+           <span>按系列</span><br>
+           <span>按价格</span><br>
+           <span>肌肤问题</span>
+           <img src="/img/LBKLS2018030603.jpg" alt="">
+           <p class="p_2">高保湿系列<a href="#">查看详情&gt</a></p>
+           <img src="/img/search-result.png" alt="">
+           <p class="p_3"><a href="#">开始选择&gt</a></p>
+       </div>
+    </div>
+    <div class="con_right">
+        <select class="sort_by_list select">
+            <option value="" style="font-style:italic" selected="selected">请选择排序方式</option>
+            <option>
+            按价格从高到低
+            </option>
+            <option>
+            按价格从低到高
+            </option>
+            <option>
+            按上市时间
+            </option>
+            <option>
+            明星产品排行
+            </option>
+            </select>
+            <div class="shop">
+              
+
+
+
+                <!--商品列表渲染-->
+               <div class="shop_box">
+                  
+                      
+                      
+                  <!-- <div class="shop_box_con"></div>
+                  <div class="shop_box_con"></div>
+                  <div class="shop_box_con"></div>
+                  <div class="shop_box_con"></div>
+                  <div class="shop_box_con"></div>
+                  <div class="shop_box_con"></div>
+                  <div class="shop_box_con"></div>
+                  <div class="shop_box_con"></div>
+                  <div class="shop_box_con"></div>
+                  <div class="shop_box_con"></div>
+                  <div class="shop_box_con"></div>
+                  <div class="shop_box_con"></div>
+                  <div class="shop_box_con"></div>
+                  <div class="shop_box_con"></div>
+                </div> -->
+
+            </div>
+            <div class="category_footer_copy" style="border:1px solid #ccc;margin-bottom:15px;font-size:12px;line-height:25px;padding:10px;">
+                <strong style="font-size:14px;text-align:center;display:block ">科颜氏更多新品</strong>
+                新品总会让人有所期待，不管是在配方还是在包装上，都会有所突破。<br>
+                产品包括：科颜氏精准紧颜提升精华乳液、科颜氏金盏花洁面啫喱、科颜氏丰润保湿水凝精华乳、科颜氏男士紧致面霜等。<br>了解更多关于科颜氏更多新品相关产品价格、功效、使用方法等信息，就到Kiehl's 科颜氏中国官网
+                </div>
+    </div>
+</div>
+    <footer></footer>
+
+  <script type="text/html" id="list-template">
+    <% for (var i = 0; i < 15; i++) { var prod = products[i]; %>
+      <div class="shop_box_con">
+            <a href="/html/detail.html?id=<%= prod.id %>">
+      <div class="product_image_topwrapper">
+            <img class=product_image src="<%= prod.image %>">
+        </div>
+            <a class="product_image_wrapper b-product_img-link" href="#">
+                    <%= prod.title %>
+            </a>
+      
+      <li class="product_li">洁净毛孔</li>
+      <li class="product_li">蕴含水杨酸，有效预防痘痘形成</li>
+
+      <div class="price">
+      <p class="product_price">
+          <span class="product_price_title">
+           价格   
+          </span>
+          <%= prod.price %>
+          </p>
+          <div class="product_size">
+          150ml
+          </div>
+      </div>
+      <img class="imglove" src="/img/552.png" alt="">
+      <div class="aa">
+         <div class="product_details">
+            <a href="/html/detail.html?id=<%= prod.id %>" class="product_loadmore"><span>了解更多</span></a>
+         </div>
+         <!-- <button type="submit">
+            <span>立即购买</span>
+         </button> -->
+  </div>
+</div>
+<% } %>
+
+</script>
+
+
+
+
+
+
+</body>
+</html>
+

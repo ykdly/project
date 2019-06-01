@@ -1,0 +1,165 @@
+
+/*初始化*/
+*{margin: 0;padding: 0;}
+ol,ul{list-style: none;}
+a{text-decoration: none;}
+img{
+	vertical-align:top;
+}
+
+
+/*body*/
+
+body{
+    background: url(../img/kiehls-background-20190528.jpg) center;
+    background-size: 152.5% 100%;
+}
+
+.nav_roll{
+    background: black;
+    position: fixed;
+    width: 70px;
+    height: 148px;
+    right: 0;
+    top: 33%;
+}
+.nav_roll ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.nav_roll ul li{
+    font-size: 14px;
+    flex: 1;
+    margin: 0 10px;
+    color: #ffffff;
+}
+.nav_roll ul li:nth-child(1){
+    border-bottom:1px solid white; 
+}
+.nav_roll ul li span{
+    display: block;
+     margin-top: 15px;
+    margin-left: 10px;
+} 
+
+
+
+
+.banner_max{
+     padding-top:14px; 
+     margin: 0 auto;
+ }
+
+ .swiper-container {
+     margin: 0 auto;
+    padding-top: 14px;
+    width: 950px;
+    height: 410px;
+}
+.banner_max img{
+    width: 950px;
+    height: 410px;
+ }
+ .banner_middle{
+     width: 950px;
+     height: 180px;
+     margin: 0 auto;
+ }
+
+ /*carousel*/
+ .carousel{
+     width: 950px;
+     height: 279px;
+     margin: 0 auto;
+     margin-top: 23px;
+ }
+ .carousel_title{
+     height: 20px;
+     position: relative;
+     border-top: 3px solid;
+ }
+ .carousel_title span{
+     display: block;
+     position: absolute;
+     top: -12px;
+     left: 373px;
+     background: #ffffff;
+     width: 182px;
+     height: 20px;
+     text-align: center;
+     font-size: 20px;
+     font-weight: 800;
+ }
+
+
+  /*details*/
+  .details{
+      width: 950px;
+      height: 228px;
+      margin: 0 auto;
+  }
+  .details ul{
+      display: flex;
+      justify-content: space-between;
+      padding-top: 15px;
+  }
+  .details ul li{
+      border: 2px solid;
+  }
+ .details_min{
+     width: 950px;
+     height: 206px;
+     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+ } 
+ .details_min img{
+     width: 313.5px;
+ }
+ .details_slot{
+     width: 950px;
+     height: 130.5px;
+     margin: 0 auto;
+
+ }
+ .details_slot div:nth-child(1){
+     width: 299px;
+     height: 80px;
+     float: left;
+     margin-top: 18px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+ }
+ .details_slot div:nth-child(1) p{
+     font-size: 18px;
+     line-height: 24px;
+     margin-top: 20px;
+     font-weight: 600;
+ }
+.details_slot div:nth-child(2){
+    width: 627px;
+    height: 80px;
+    float: right;
+    margin-top: 18px;
+    border-top:2px solid; 
+    border-bottom:2px solid; 
+ }
+ .details_slot div:nth-child(2) div{
+     width: 627px;
+     height: 73px;
+     margin-top: 2px;
+     border-top:2px solid #ede8e2; 
+    border-bottom:2px solid #ede8e2;
+ }
+ .details_slot div:nth-child(2) div img{
+     margin-left: 45px;
+     float: left;
+ }
+ .details_slot div:nth-child(2) div span{
+     float: left;
+ }
+
+

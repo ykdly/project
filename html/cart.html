@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我的购物车</title> 
+
+    <script src="/libs/requirejs/require.js" data-main="/js/cart"></script>
+    <link rel="stylesheet" href="/libs/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/footer.css">
+   
+    
+    <link rel="stylesheet" href="/css/cart.css">
+
+</head>
+<body>
+<header></header>
+<div class="nav_l">
+            <p class="p_dd"><a href="">首页 </a> / <a href=""> 我的科颜氏 </a> / <a href=""> 我的购物袋</a></p>
+         </div>
+
+
+
+
+<div class="primary">
+         <div class="cart_wrapper">
+
+
+
+                <div class=" cart cart-empty">
+                <h1 class="cart_title">我的购物袋</h1>
+                <div class="cart_empty">
+                您的购物袋为空，立即选购您喜欢的产品。
+                 <a class="continue-shopping" href="/html/shouye.html" title="继续购买">继续购买&gt;</a>
+              </div>
+            </div>
+            <div class=" cart hidden" style="margin-top: 70px;">
+                    <table class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th><label><input type="checkbox" class="chk_all">全选</label></th>
+                                    <th>商品编号</th>
+                                    <th>图片</th>
+                                    <th class="col-md-4">标题</th>
+                                    <th>价格</th>
+                                    <th>数量</th>
+                                    <th>小计</th>
+                                    <th>操作</th>
+                                </tr>
+                            </thead>
+                            <tbody class="cart-body"></tbody>
+                            <tfoot>
+                                <tr>
+                                    <td>合计</td>
+                                    <td colspan="7" class="total-price">0.00</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="8" class="text-right">
+                                        <button class="btn btn-danger">去结算</button>
+                                    </td>
+                                </tr>
+                            </tfoot>
+                        </table>
+              </div>
+
+
+              <div class="jcarousel-clip">
+                  <ul class="productcarousel_list">
+                    <li class="product_tile_wrapper">
+                        <a href="#"><img src="/img/KLS00027_offer.jpg" class="img_a"></a>
+                        <a href="#" class="product_name">科颜氏高保湿霜*</a>
+                        <img src="/img/552.png" class="img_b">
+                        <div class="price">
+                            ¥315
+                        </div>
+                        <button type="submit"class="js_quickview">
+                            <span>快速购买</span>
+                            </button>
+                    </li>
+                    <li class="product_tile_wrapper">
+                        <a href="#"><img src="/img/KLS00014_offer.jpg" class="img_a"></a>
+                        <a href="#" class="product_name">科颜氏金盏花爽肤<br>水</a>
+                        <img src="/img/552.png" class="img_b">
+                        <div class="price">
+                            ¥340-¥570
+                        </div>
+                        <button type="submit"class="js_quickview">
+                            <span>快速购买</span>
+                            </button>
+                    </li>
+                    <li class="product_tile_wrapper">
+                        <a href="#"><img src="/img/KLS00035_offer.jpg" class="img_a"></a>
+                        <a href="#" class="product_name">科颜氏牛油果保湿<br>眼霜</a>
+                        <img src="/img/552.png" class="img_b">
+                        <div class="price">
+                            ¥310
+                        </div>
+                        <button type="submit"class="js_quickview">
+                            <span>快速购买</span>
+                            </button>
+                    </li>
+                    <li class="product_tile_wrapper">
+                        <a href="#"><img src="/img/KLS00011_offer.jpg" class="img_a"></a>
+                        <a href="#" class="product_name">科颜氏亚马逊白泥<br>净肤面膜</a>
+                        <img src="/img/552.png" class="img_b">
+                        <div class="price">
+                            ¥290
+                        </div>
+                        <button type="submit"class="js_quickview">
+                            <span>快速购买</span>
+                            </button>
+                    </li>
+                   
+                  </ul>
+              </div>
+         </div>
+
+         <div class="secondary">
+            <div class="productcarousel">
+                <h2 class="recommendation_title"><span>热销产品推荐</span></h2>
+                <ul>
+                    <li class="product_tile_wrapper_w">
+                         <div class="product_tile">
+                                <img class="img_c" src="/img/150ml.jpg" alt="">
+                                <div class="span_a">
+                                  <span class="product_subtitle">科颜氏亚马逊白泥净致洁面乳</span>
+                                  <img class="img_d" src="/img/552.png" alt="">
+                                  <span class="product_subtitle">¥230</span>
+                                  <button class="btn_a">
+                                        <span>快速购买</span>
+                                  </button>
+                                </div>
+                         </div>
+                    </li>
+                    <li class="product_tile_wrapper_w">
+                            <div class="product_tile">
+                                   <img class="img_c" src="/img/KLS00014_offer.jpg" alt="">
+                                   <div class="span_a">
+                                     <span class="product_subtitle">科颜氏金盏花爽肤水</span>
+                                     <img class="img_d" src="/img/552.png" alt="">
+                                     <span class="product_subtitle">¥340-¥570</span>
+                                     <button class="btn_a">
+                                           <span>快速购买</span>
+                                     </button>
+                                   </div>
+                            </div>
+                       </li>
+                       <li class="product_tile_wrapper_w">
+                            <div class="product_tile">
+                                   <img class="img_c" src="/img/125ml.jpg" alt="">
+                                   <div class="span_a">
+                                     <span class="product_subtitle">科颜氏高保湿面膜</span>
+                                     <img class="img_d" src="/img/552.png" alt="">
+                                     <span class="product_subtitle">¥340</span>
+                                     <button class="btn_a">
+                                           <span>快速购买</span>
+                                     </button>
+                                   </div>
+                            </div>
+                       </li>
+            </ul>
+            </div>
+         </div>
+
+         
+</div>
+
+
+
+
+    <footer></footer>
+
+
+
+    <script type="text/html" id="cart-template">
+        {{each cart prod}}
+        <tr data-id="{{prod.id}}">
+            <td><input type="checkbox" class="chk-prod"></td>
+            <td>{{prod.id}}</td>
+            <td><img src="{{prod.image}}" alt="" style="width: 40px;"></td>
+            <td>{{prod.title}}</td>
+            <td>{{prod.price}}</td>
+            <td>
+                <div class="input-group">
+                  <span class="input-group-addon decrement">-</span>
+                  <input type="text" class="form-control text-center prod-amount" value="{{prod.amount}}">
+                  <span class="input-group-addon increment">+</span>
+                </div>
+            </td>
+            <td class="sub">{{(prod.price*prod.amount).toFixed(2)}}</td>
+            <td><a href="javascript:void(0);" class="del">删除</a></td>
+        </tr>
+        {{/each}}
+    </script>
+</body>
+</html>
